@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced</title>
+    </head>
+    <body>
+        <div class="advanced-header">
+            <h2 class="left-aligned">Google</h2>
+            <a href="index.html" class="right-aligned">Search</a> 
+        </div>
+        <div class="secondary-header">
+            <h3 class="left-aligned">Advanced Search</h3>
+        </div>
+        <hr>
+        <form action="https://www.google.com/search">
+            <div class="grid">
+                <div class="grid-item-large">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item">all these words:</div>
+                <div class="grid-item">
+                    <input type="text" name="as_q" class="secondary-input-field" autocomplete="off">
+                </div>
+                <div class="grid-item">this exact word or phrase:</div>
+                <div class="grid-item">
+                    <input type="text" name="as_epq" class="secondary-input-field" autocomplete="off">
+                </div>
+                <div class="grid-item">any of these words:</div>
+                <div class="grid-item">
+                    <input type="text" name="as_oq" class="secondary-input-field" autocomplete="off">
+                </div>
+                <div class="grid-item">none of these words:</div>
+                <div class="grid-item">
+                    <input type="text" name="as_eq" class="secondary-input-field" autocomplete="off">
+                </div>
+                <div class="grid-item"></div>
+                <div class="advanced-submit">
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
